@@ -14,6 +14,7 @@
     "dotenv": "^16.0.1"
   },
   "devDependencies": {
-    "eslint": "^8.20.0"
+    "eslint": "^8.20.0",
+    "espn-fantasy-football-api": "^0.16.1"
   }
 }
