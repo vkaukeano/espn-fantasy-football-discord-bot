@@ -4,16 +4,19 @@
   "description": "Discord Bot for fantasy football",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress open"
+    
   },
   "author": "Von Kaukeano",
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^1.0.1",
     "discord.js": "^14.0.3",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "selenium-webdriver": "^4.3.1"
   },
   "devDependencies": {
+    "cypress": "^10.4.0",
     "eslint": "^8.20.0",
     "espn-fantasy-football-api": "^0.16.1"
   }
